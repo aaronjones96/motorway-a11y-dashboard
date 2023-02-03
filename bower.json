@@ -1,5 +1,5 @@
 {
-  "name": "pa11y-dashboard",
+  "name": "motorway-a11y-dashboard",
 
   "dependencies": {
     "jquery": "~1.10",

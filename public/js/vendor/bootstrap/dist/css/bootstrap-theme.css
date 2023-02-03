@@ -6,6 +6,10 @@
  * Designed and built with all the love in the world by @mdo and @fat.
  */
 
+ body {
+background-color: #2D2D2B;
+ }
+
 .btn-default,
 .btn-primary,
 .btn-success,

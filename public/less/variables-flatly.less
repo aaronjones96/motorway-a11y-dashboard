@@ -12,13 +12,13 @@
 @gray-dark: #616D6E;
 @gray: #6C7878;
 @gray-light: #7C8C8D;
-@gray-lighter: #eaeff1;
+@gray-lighter: #1D1D1B;
 
 // Brand colors
 // -------------------------
 
-@brand-primary: #2C3E50;
-@brand-success: #006053;
+@brand-primary: #fff;
+@brand-success: #fff;
 @brand-warning: #b24d04;
 @brand-danger: #c92a2a;
 @brand-info: #177BBE;
@@ -26,7 +26,7 @@
 // Scaffolding
 // -------------------------
 
-@body-bg: #fff;
+@body-bg: #2D2D2B;
 @text-color: @brand-primary;
 
 // Links
@@ -524,8 +524,8 @@
 // Breadcrumbs
 // -------------------------
 @breadcrumb-bg: lighten(@gray-lighter, 4%);
-@breadcrumb-color: @gray-dark;
-@breadcrumb-active-color: @breadcrumb-color;
+@breadcrumb-color: @brand-primary;
+@breadcrumb-active-color: darken(@breadcrumb-color, 25%);
 
 // Carousel
 // ------------------------
